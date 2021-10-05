@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types' // проверка типов
 import './Header.css';
-import Nav from "../Nav/Nav";
+import { Nav } from "../Nav/Nav";
 import logo from './logo.png'
 
 function Header({title , nav}) {

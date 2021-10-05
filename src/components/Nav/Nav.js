@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types' // проверка типов
 import './Nav.css';
 
-function Nav( { nav }) {
+function Nav( { nav } ) {
 
     return (
         <div className='nav'>
@@ -18,4 +18,4 @@ const navStyle = {
     cursor: 'pointer'
 }
 
-export default Nav;
+export { Nav };
